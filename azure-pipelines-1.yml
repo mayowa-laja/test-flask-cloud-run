@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  azureSubscription: 7b1f183f-e18e-4701-8d8d-98adafeac592
+  azureSubscription: Azure for Students (7b1f183f-e18e-4701-8d8d-98adafeac592)
   appName: FlaskAppLab5
   dockerRegistryServiceConnection: CloudComputingLab5
   imageRepository: 'mayowalajatestflaskcloudrun'
