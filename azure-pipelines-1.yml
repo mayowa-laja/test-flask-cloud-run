@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   azureSubscription: Azure for Students
   appName: FlaskAppLab5
-  dockerRegistryServiceConnection: '89d0c8bd-7bc5-4492-a677-60fd7be67919'
+  dockerRegistryServiceConnection: CloudComputingLab5
   imageRepository: 'mayowalajatestflaskcloudrun'
   containerRegistry: 'cloudcomputinglab5.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
