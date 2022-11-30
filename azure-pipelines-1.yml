@@ -46,3 +46,5 @@ stages:
         azureSubscription: $(azureSubscription)
         appName: $(appName)
         imageName: $(containerRegistry)/$(imageRepository):$(tag)
+        
+    - task: PublishBuildArtifacts@1
